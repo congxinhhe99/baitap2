@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bo{
+    width: 300px;
+    height: 300px;  
+   
+}
+.bo .lop1{
+    width: 300px;
+    height: 300px;
+    position: relative; 
+    transform: scale(0.9);
+    
+}
+.bo:hover .lop1{
+    transform: scale(1);
+    transition: 1s;
+    
+}
+.bo .lop2{
+  position: absolute;
+  top: 0;
+  left: 0;
+    width: 300px;
+    height: 300px;
+   
+}
+.bo:hover .lop2{
+    background-color: black;
+    opacity: 0.5;
+  
+}
+.bo .lop3{
+    position: absolute;
+    top: 113px;
+    left: 41px;
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+}
+#play{
+    font-size: 60px;
+}
+.bo .lop3 i{
+    margin-left: 20px;
+}
+.bo:hover .lop3{
+  opacity: 1;
+}
+
+
